@@ -17,7 +17,6 @@ function App() {
       title: `Novo projeto ${Date.now()}`,
       url: 'http://github.com/thalesvmoreira',
 	    techs: ["NodeJs", "ReactJS", "React Native"],
-	    likes: 0,
     });
 
     const repository = response.data;
